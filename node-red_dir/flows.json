@@ -1,0 +1,54 @@
+[
+    {
+        "id": "1cfcde9238a4955f",
+        "type": "tab",
+        "label": "フロー 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "0a02324a2c7b357e",
+        "type": "http in",
+        "z": "1cfcde9238a4955f",
+        "name": "",
+        "url": "/api1",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 120,
+        "y": 160,
+        "wires": [
+            [
+                "f40e5c6c4cbfd700",
+                "0d089f742d65a107"
+            ]
+        ]
+    },
+    {
+        "id": "f40e5c6c4cbfd700",
+        "type": "http response",
+        "z": "1cfcde9238a4955f",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 360,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "0d089f742d65a107",
+        "type": "debug",
+        "z": "1cfcde9238a4955f",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 100,
+        "wires": []
+    }
+]
