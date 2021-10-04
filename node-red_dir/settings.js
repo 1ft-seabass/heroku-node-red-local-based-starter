@@ -246,7 +246,7 @@ module.exports = {
      * following property can be used to identify a directory of static content
      * that should be served at http://localhost:1880/.
      */
-    //httpStatic: '/home/nol/node-red-static/',
+    httpStatic: './node-red-static/',
 
 /*******************************************************************************
  * Runtime Settings
